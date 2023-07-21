@@ -1,0 +1,185 @@
+%prova commento
+a = x*sqrt(3) + cos(2*pi)
+
+a =
+
+   -0.7321
+
+clear
+who
+clc
+tic
+toc
+Elapsed time is 10.871465 seconds.
+tic
+time = toc
+
+time =
+
+    7.7054
+
+tic
+2+3
+
+ans =
+
+     5
+
+toc
+Elapsed time is 5.672116 seconds.
+prova1
+
+ans =
+
+     5
+
+Elapsed time is 0.000312 seconds.
+prova1
+Elapsed time is 0.000080 seconds.
+clear
+clc
+prova2
+prova2
+prova2
+[Warning: attenzione! Divisione per un numero molto piccolo!] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('prova2', 'C:\Users\LabT_Pal_Sc\Documents\MATLAB\prova2.m', 6)" style="font-weight:bold">prova2</a> (<a href="matlab: opentoline('C:\Users\LabT_Pal_Sc\Documents\MATLAB\prova2.m',6,0)">line 6</a>)] 
+prova2
+prova2
+Divisione per 1 non calcolata!prova2
+Il risultato della divione e': 7.500000 prova2
+
+Il risultato della divione e': 7.500000 prova2
+
+Il risultato della divione e': 7.500000 prova2
+
+Il risultato della divione e': 7.500000 
+
+
+s = sprintf('Il vlore di n e'': %f',n)
+
+s =
+
+    'Il vlore di n e': 15.000000'
+
+whos
+  Name      Size            Bytes  Class     Attributes
+
+  d         1x1                 8  double              
+  n         1x1                 8  double              
+  r         1x1                 8  double              
+  s         1x27               54  char                
+
+fprintf('Il valore di n e'': %d',n)
+Il valore di n e': 15
+
+fprintf('Il valore di n e'': %d',r)
+Il valore di n e': 7.500000e+00
+
+
+fprintf('Il valore di n e'': %e',r)
+Il valore di n e': 7.500000e+00
+
+
+
+c = 234.67
+
+c =
+
+  234.6700
+
+fprintf('Il valore di n e'': %e',c)
+Il valore di n e': 2.346700e+02clear
+
+
+
+
+
+
+clc
+prova
+{Unrecognized function or variable 'prova'.
+} 
+prova2
+Inserire il valore del numeratore:56
+Inserire il valore del denominatore:3
+
+Il risultato della divisione e': 18.666667 clear
+clc
+prova2
+Questo script calcola una frazione
+Inserire il valore del numeratore:5
+Inserire il valore del denominatore:0
+[Warning: attenzione! Divisione per un numero molto piccolo!] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('prova2', 'C:\Users\LabT_Pal_Sc\Documents\MATLAB\prova2.m', 7)" style="font-weight:bold">prova2</a> (<a href="matlab: opentoline('C:\Users\LabT_Pal_Sc\Documents\MATLAB\prova2.m',7,0)">line 7</a>)] 
+
+
+
+clear
+clc
+prova3
+Inserire un numero tra 1 e 31
+Primo
+prova3
+Inserire un numero tra 1 e 32
+Secondo
+prova3
+Inserire un numero tra 1 e 33
+Dolce
+prova3
+Inserire un numero tra 1 e 32.5
+Dolce
+
+
+mod(n,n)
+
+ans =
+
+     0
+
+mod(n,2)
+
+ans =
+
+    0.5000
+
+mod(n,1)
+
+ans =
+
+    0.5000
+
+clear
+clc
+prova3
+Inserire un numero tra 1 e 3:2.5
+[Warning: Piatto non presente!] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('prova3', 'C:\Users\LabT_Pal_Sc\Documents\MATLAB\prova3.m', 13)" style="font-weight:bold">prova3</a> (<a href="matlab: opentoline('C:\Users\LabT_Pal_Sc\Documents\MATLAB\prova3.m',13,0)">line 13</a>)] 
+prova3
+Inserire un numero tra 1 e 3:2
+
+n =
+
+     2
+
+Secondo
+
+
+save dati
+clear
+n
+{Unrecognized function or variable 'n'.
+} 
+load dati
+a = 5;
+b = 6534;
+c = a/b;
+save dati a c
+clear
+load dati
+clear
+load dati c
+load dati
+save dati a
+clear
+load dati
+diary off

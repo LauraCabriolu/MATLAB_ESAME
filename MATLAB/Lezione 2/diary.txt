@@ -1,0 +1,414 @@
+a = pi;
+a
+
+a =
+
+   3.141592653589793
+
+format long
+a
+
+a =
+
+   3.141592653589793
+
+format short
+a
+
+a =
+
+    3.1416
+
+format shorte
+a
+
+a =
+
+   3.1416e+00
+
+format longe
+a
+
+a =
+
+     3.141592653589793e+00
+
+whos
+  Name      Size            Bytes  Class     Attributes
+
+  a         1x1                 8  double              
+
+help round
+ <strong>round</strong>  rounds towards nearest decimal or integer
+ 
+    <strong>round</strong>(X) rounds each element of X to the nearest integer.
+    
+    <strong>round</strong>(X, N), for positive integers N, rounds to N digits to the right
+    of the decimal point. If N is zero, X is rounded to the nearest integer.
+    If N is less than zero, X is rounded to the left of the decimal point.
+    N must be a scalar integer.
+ 
+    <strong>round</strong>(X, N, 'significant') rounds each element to its N most significant
+    digits, counting from the most-significant or left side of the number. 
+    N must be a positive integer scalar.
+ 
+    <strong>round</strong>(X, N, 'decimals') is equivalent to <strong>round</strong>(X, N).
+ 
+    For complex X, the imaginary and real parts are rounded independently.
+ 
+    Examples
+    --------
+    % Round pi to the nearest hundredth
+    >> round(pi, 2)
+         3.14
+ 
+    % Round the equatorial radius of the Earth, 6378137 meters,
+    % to the nearest kilometer.
+    round(6378137, -3)
+         6378000
+ 
+    % Round to 3 significant digits
+    format shortg;
+    round([pi, 6378137], 3, 'significant')
+         3.14     6.38e+06
+ 
+    If you only need to display a rounded version of X,
+    consider using fprintf or num2str:
+ 
+    fprintf('%.3f\n', 12.3456)
+         12.346 
+    fprintf('%.3e\n', 12.3456)
+         1.235e+01
+ 
+   See also <a href="matlab:help floor">floor</a>, <a href="matlab:help ceil">ceil</a>, <a href="matlab:help fprintf">fprintf</a>.
+
+    <a href="matlab:doc round">Documentation for round</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('round')">Other functions named round</a>
+
+fla = round(a,4,'significant')
+
+fla =
+
+     3.142000000000000e+00
+
+eps
+
+ans =
+
+     2.220446049250313e-16
+
+format short
+eps
+
+ans =
+
+   2.2204e-16
+
+2^(1-53)
+
+ans =
+
+   2.2204e-16
+
+eps/100
+
+ans =
+
+   2.2204e-18
+
+2^(-1022-53)
+
+ans =
+
+     0
+
+2^(-1021-53)
+
+ans =
+
+  4.9407e-324
+
+clear
+
+
+
+
+
+
+
+machine_eps
+ep
+
+ep =
+
+   2.2204e-16
+
+eps
+
+ans =
+
+   2.2204e-16
+
+k
+
+k =
+
+    53
+
+clear
+
+
+
+
+
+
+num_macchina
+Inserisci il valore di a:374.567
+Inserisci il valore di b:982.7123
+Inserisci il valore di c:67.987788
+flt1
+
+flt1 =
+
+        1289
+
+flt2
+
+flt2 =
+
+        1289
+
+rho1
+
+rho1 =
+
+   2.2610e-04
+
+rho2
+
+rho2 =
+
+   2.2610e-04
+
+x
+
+x =
+
+   1.2893e+03
+
+format short
+x
+
+x =
+
+   1.2893e+03
+
+clear
+
+
+
+
+
+limite
+
+f1 =
+
+    0.4996
+
+
+f2 =
+
+    0.4996
+
+
+f1 =
+
+    0.5000
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+    0.5000
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+    0.5000
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+    0.5000
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+    0.5000
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+    0.4996
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+     0
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+     0
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+     0
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+     0
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+     0
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+     0
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+     0
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+     0
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+     0
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+     0
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+     0
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+     0
+
+
+f2 =
+
+    0.5000
+
+
+f1 =
+
+     0
+
+
+f2 =
+
+    0.5000
+
+
+diary off
